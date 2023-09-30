@@ -3,11 +3,16 @@ body{
     color: azure;
 }
 
-#all{
-   width: 100%;
+#side{
+    float: left;
+   width: 90%;
    margin: 20px;
+   padding: 0%;
 }
 
 #sub{
     background-color: paleturquoise;
+    padding: 1%;
+    font-size: 120%;
+    border: 20%;
 }
