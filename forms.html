@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="forms.css">
 </head>
 <body>
-    
-    <div>
+    <h2>Contact Form</h2>
+<aside>
+    <div id="all">
         <form action="">
                 <label for=""> First Name:</label> <br>
                 <input type="text" placeholder="First Name"> <br>
                 <label for=""> Last name:</label> <br>
                 <input type="text" placeholder="Last Name"> <br>
                 <div><label for="">Email: </label> <br></div>
-                <input type="email" placeholder="joedoe@domain.com"> <br> <br>
-               <div> <label for=""> Your Questions:</label> <br> <br>
+                <input type="email" placeholder="joedoe@domain.com"> <br>
+                <label for="" id="pass">Password:</label> <br>
+                <input type="password" placeholder="Password"> <br>
+                <label for="" id="cpass">Confirm Password:</label> <br>
+                <input type="password" placeholder="Confirm Password"> <br> <br>
+               <div> <label for=""> Your Questions:</label> <br>
                 <textarea name="" id="" cols="30" rows="10" placeholder="Write your questions Here"></textarea></div> <br>
-                <button type="submit"> submit</button>
+                <button type="submit" id="sub" onclick="verifyPassword()"> submit</button>
         </form>
     </div>
+</aside>
+    <script src="forms.js"></script>
 </body>
 </html>
