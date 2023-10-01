@@ -16,8 +16,9 @@ body{
 }
 
 #sub{
-    background-color: paleturquoise;
+    background-color: rgb(56, 70, 222);
     padding: 1%;
     font-size: 120%;
     border: 20%;
+    color: #ffffff;
 }
