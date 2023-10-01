@@ -30,7 +30,7 @@ function verifyPassword(){
     let firstPassword = document.getElementById('pass').value
     let secondPassword = document.getElementById('cpass').value
 
-    if (firstPassword === !secondPassword){
+    if (firstPassword === secondPassword){
         alert("Grant Access")
     }else(
         alert("Deny Access")
